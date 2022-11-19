@@ -16,40 +16,65 @@ export default function Home() {
         <hr/>
 
         <div className="">
-          uCare is a free customer service software, which allows you to provide excellent customer service and support to your users.  
+          uCare is a free customer service software, which allows you and your agents to respond to support ticket requests to your customers.  
         </div>
 
-        <h3>Coming soon!</h3>
+        <h2>uCare Features</h2>
 
-        {/* <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+        <div className="grid">
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <div className="card">
+            <h3>Knowledge Base</h3>
+            <p>Create documentation and FAQ so that your customers can self-serve and find help quick. Supports nested categories.</p>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          <div className="card">
+            <h3>Email Templates</h3>
+            <p>Customize the automated emails that your customers receive, and use shortcodes to tailor emails to each customer.</p>
+          </div>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
+          <div className="card">
+            <h3>Canned Responses</h3>
+            <p>Respond to common customer questions and issues quickly. Create preset replies allowing you and your agents to stay consistent with your answers.</p>
+          </div>
+
+          <div className="card">
+            <h3>Custom Fields</h3>
+            <p>Need to collect additional information? Create custom fields to fine-tune the information you need from your customers.</p>
+          </div>
+          
+          <div className="card">
+            <h3>Automated Responder</h3>
+            <p>Let your customers feel assured that their requests have been received. uCare can automatically provide an initial response to all tickets, and it can be programmed to provide additional responses based on ticket category or keywords.</p>
+          </div>
+
+          <div className="card">
+            <h3>Ticket Routing</h3>
+            <p>Automatically assign tickets to certain agents, based on the ticket category or department</p>
+          </div>
+
+          <div className="card">
+            <h3>Email Piping</h3>
+            <p>Integrate uCare with your existing email address, allowing uCare to convert emails you receive into tickets, which allows you to respond to emails from the helpdesk, and retain your customer information.</p>
+          </div>
+
+          <div className="card">
+            <h3>Customer Satisfaction</h3>
+            <p>Let your customers tell you how well your business and your agents doing. With the Customer Satisfaction module, your customers will automatically receive a simple feedback requests to rate your support.</p>
+          </div>
+
+          <div className="card">
+            <h3>White Labelled</h3>
+            <p>Customize the interface with your own colors and logo</p>
+          </div>
+
+          <div className="card">
+            <h3>Slack Integration</h3>
+            <p>Stay on-top of your support queue, by receiving notifications in Slack for new tickets and replies.</p>
+          </div>
+
+        </div>
+
       </main>
 
       <footer>
